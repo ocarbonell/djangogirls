@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.utils import timezone
+from django.views.generic import FormView
+
 from .models import Post
 
 # Create your views here.
